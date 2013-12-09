@@ -13,6 +13,11 @@ $(document).ready(function(){
 
   $("figure").css({ "height": windowHeight });
 
+  L.mapbox.map('map', 'bundleup.ggdl4bm3', {
+    scrollWheelZoom: false
+  })
+  .setView([49.2171, -122.8354], 11);
+
   $(window).resize(function(){
     windowHeight = $(window).height();
     $("figure").css({ "height": windowHeight });
@@ -21,21 +26,21 @@ $(document).ready(function(){
   $('a.more').click(function(e){
     e.preventDefault();
     $('#overview').ScrollTo({
-      duration: 2000
+      duration: 1500
     });
   });
 
   $('a.btn-clothes').click(function(e){
     e.preventDefault();
     $('section.clothing').ScrollTo({
-      duration: 2000
+      duration: 1500
     });
   });
 
   $('a.cta-learnmore').click(function(e){
     e.preventDefault();
     $('section.learnmore').ScrollTo({
-      duration: 2000
+      duration: 1500
     });
   });
 

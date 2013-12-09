@@ -231,6 +231,20 @@ a.more:hover {
   font-size: 24px;
 }
 
+.clothing .dropoff {
+  margin-bottom: 0;
+}
+
+/* ---- Drop Off Finder ---- */
+
+.map {
+  padding: 0;
+}
+
+#map {
+  height: 800px;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
