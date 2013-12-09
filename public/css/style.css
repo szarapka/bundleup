@@ -130,10 +130,20 @@ a.more:hover {
   background-color: #7a7b7b;
 }
 
+.btn-money:hover {
+  background-color: #6a6a6a;
+  color: #fff;
+}
+
 .btn-clothes {
   padding: 28px 10px;
   line-height: 18px;
   background-color: #f15c5b;
+}
+
+.btn-clothes:hover {
+  color: #fff;
+  background-color: #df5554;
 }
 
 .learnmore-box {
