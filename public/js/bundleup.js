@@ -25,6 +25,13 @@ $(document).ready(function(){
     });
   });
 
+  $('a.cta-learnmore').click(function(e){
+    e.preventDefault();
+    $('section.learnmore').ScrollTo({
+      duration: 2000
+    });
+  });
+
 });
 
 /*
