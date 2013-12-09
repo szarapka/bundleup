@@ -25,6 +25,13 @@ $(document).ready(function(){
     });
   });
 
+  $('a.btn-clothes').click(function(e){
+    e.preventDefault();
+    $('section.clothing').ScrollTo({
+      duration: 2000
+    });
+  });
+
   $('a.cta-learnmore').click(function(e){
     e.preventDefault();
     $('section.learnmore').ScrollTo({
