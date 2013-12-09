@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  header
+    .container
+      img(src='/img/logo.png')
+  figure
+    figcaption
+      h1 It's <span>Cold</span> Out.
+      h2 Help make a difference.
+    a.more(href='#')
+      span.glyphicon.glyphicon-chevron-down
+  section#overview
+    .container
+      img(src='/img/logo.png')
+      .row.overview
+        .col-lg-4.col-md-5
+          img.img-responsive(src='/img/coat.png')
+        .col-lg-8.col-md-7
+          h3 Everyone needs a <span>Warm</span> Coat.
+          p With your help, Operation Bundle Up provides warm coats and winter wear to those who need it most: the ~2,500 homeless, braving the cold Metro Vancouver winter.
+          p By donating new or slightly used coats and winter wear (gloves, toques, socks, hoodies, umbrellas, scarves, vests, etc) or monetary donations (100% used to buy new items), you can help those who need it most this winter.
+          p Operation BundleUp offers two simple ways for you to get involved:
+          .row.cta-buttons
+            .col-lg-6.col-lg-offset-1.col-md-6.col-md-offset-1
+              a.btn.btn-cta.btn-money(href='#') Donate $
+            .col-lg-5.col-md-5
+              a.btn.btn-cta.btn-clothes(href='#') Donate Coats<br><span>or winter wear</span>
+      .learnmore-box
+        a.cta-learnmore(href='#') learn more about bundle<span>up</span>
+  section.learnmore
+    .container
+      p this is a test.

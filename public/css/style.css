@@ -1,0 +1,204 @@
+/*
+ * bundleup
+ * operationbundleup.com
+ *
+ * you should donate a coat!
+ *
+ */
+
+/* ---- Body ---- */
+
+body {
+  background: #000 url('../img/binding_dark.png');
+}
+
+/* ---- Splash ---- */
+
+header {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  overflow: hidden;
+}
+
+figure {
+  z-index: 25;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  position: relative;
+  background-image: url('../img/splash.jpg');
+}
+
+figcaption {
+  z-index: 30;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: -130px;
+  color: #fff;
+}
+
+figcaption h1 {
+  font-size: 140px;
+  font-family: 'Signika', sans-serif;
+  margin-bottom: 0;
+}
+
+figcaption h1 span {
+  font-weight: 700;
+}
+
+figcaption h2 {
+  margin-top: 0;
+  font-size: 84px;
+  font-family: 'Signika', sans-serif;
+}
+
+a.more {
+  color: #fff;
+  font-size: 34px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 30;
+  -webkit-transition: all 1s ease, font-size 0.35s ease;
+  -moz-transition: all 1s ease, font-size 0.35s ease;
+  -ms-transition: all 1s ease, font-size 0.35s ease;
+  -o-transition: all 1s ease, font-size 0.35s ease;
+}
+
+a.more:hover {
+  font-size: 48px;
+}
+
+/* ---- Overview --- */
+
+.overview {
+  color: #fff;
+  margin-top: 90px;
+  font-family: 'Signika', sans-serif;
+}
+
+.overview h3 {
+  margin-top: 0;
+  font-family: 'Signika', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.overview h3 span {
+  color: #f15c5b;
+}
+
+.overview p {
+  line-height: 1.55em;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.overview p:first-child {
+  margin-top: 10px;
+}
+
+.cta-buttons {
+  margin-top:40px;
+  margin-bottom: 140px;
+}
+
+.btn-cta {
+  color: #fff;
+  width: 230px;
+  height: 88px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.btn-cta span {
+  font-size: 18px;
+}
+
+.btn-money {
+  padding: 23px 10px;
+  background-color: #7a7b7b;
+}
+
+.btn-clothes {
+  padding: 28px 10px;
+  line-height: 18px;
+  background-color: #f15c5b;
+}
+
+.learnmore-box {
+  width: 100%;
+  text-align: center;
+}
+
+.cta-learnmore {
+  color: #000;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 20px 5px 20px;
+  font-size: 26px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-family: 'Signika', sans-serif;
+}
+
+.cta-learnmore span {
+  color: #f15c5b;
+}
+
+.cta-learnmore:hover {
+  text-decoration: none;
+  color: #7a7b7b;
+}
+
+.cta-learnmore span:hover {
+  text-decoration: none;
+  color: #f15c5b;
+}
+
+/* ---- Learn More ---- */
+
+.learnmore {
+  background: #fff;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  figcaption h1 {
+    font-size: 140px;
+  }
+
+  figcaption h2 {
+    font-size: 84px;
+  }
+
+  .overview h3 {
+    font-size: 36px;
+  }
+
+  .overview p {
+    font-size: 30px;
+  }
+}
