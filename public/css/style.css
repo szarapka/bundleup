@@ -212,7 +212,7 @@ a.more:hover {
   padding-top: 200px;
   font-family: 'Signika', sans-serif;
   color: #fff;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .clothing h3 {
@@ -243,6 +243,10 @@ a.more:hover {
 
 #map {
   height: 800px;
+}
+
+.closer {
+  padding-top: 50px;
 }
 
 /* Extra small devices (phones, less than 768px) */

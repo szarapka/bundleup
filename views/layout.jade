@@ -6,6 +6,18 @@ html
     link(rel='stylesheet', href='http://api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css')
     link(rel='stylesheet', href='/css/bootstrap.min.css')
     link(rel='stylesheet', href='/css/style.css')
+    script.
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '52a6455eeddd5b60ca000c14');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
   body
     block content
     script(src='http://code.jquery.com/jquery-1.10.1.min.js')
