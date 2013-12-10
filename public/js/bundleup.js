@@ -37,6 +37,13 @@ $(document).ready(function(){
     });
   });
 
+  $('a.btn-money').click(function(e){
+    e.preventDefault();
+    $('section.donate').ScrollTo({
+      duration: 1500
+    });
+  });
+
   $('a.cta-learnmore').click(function(e){
     e.preventDefault();
     $('section.learnmore').ScrollTo({

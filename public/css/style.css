@@ -237,6 +237,10 @@ a.more:hover {
 
 /* ---- Drop Off Finder ---- */
 
+.nobottom {
+  padding-bottom: 0;
+}
+
 .map {
   padding: 0;
 }
@@ -247,6 +251,36 @@ a.more:hover {
 
 .closer {
   padding-top: 50px;
+}
+
+.clothing .area {
+  font-size: 18px;
+  padding-bottom: 195px;
+  margin-bottom: 0;
+}
+
+.clothing .area a {
+  color: #f15c5b;
+}
+
+/* ---- Donate ---- */
+
+.donate {
+  padding-top: 200px;
+  padding-bottom: 195px;
+  background: #fff;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  font-family: 'Signika', sans-serif;
+  font-size: 18px;
+  line-height: 1.55em;
+}
+
+.donate h3 {
+  font-family: 'Signika', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 /* Extra small devices (phones, less than 768px) */
