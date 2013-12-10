@@ -299,7 +299,10 @@ a.more:hover {
   line-height: 1.55em;
   margin-top: 50px;
   font-size: 30px;
+}
 
+.btn-pay {
+  margin-top: 40px;
 }
 
 /* Extra small devices (phones, less than 768px) */
