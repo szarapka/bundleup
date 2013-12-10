@@ -31,9 +31,56 @@ block content
   section.learnmore
     .container
       .col-lg-4
-        .tracker
-
-        p 2013-204 Progress
+        table.tracker
+          tbody
+            tr
+              td(colspan='2')
+                h4 Items Received
+            tr
+              td
+                img(src='/img/jacket.png')
+                | Coats
+              td.right #
+            tr
+              td
+                img.gloves(src='/img/gloves.png')
+                | Gloves
+              td.right #
+            tr
+              td
+                img(src='/img/thermal.png')
+                | Thermal
+              td.right #
+            tr
+              td
+                img(src='/img/toque.png')
+                | Toques &amp; Hats
+              td.right #
+            tr
+              td
+                img(src='/img/socks.png')
+                | Socks
+              td.right #
+            tr
+              td
+                img(src='/img/underwear.png')
+                | Underwear
+              td.right #
+            tr
+              td
+                img(src='/img/boots.png')
+                | Boots
+              td.right #
+            tr
+              td
+                img(src='/img/scarf.png')
+                | Scarves
+              td.right #
+            tr
+              td(colspan='2')
+                h4 Funds Raised
+            tr
+              td(colspan='2') $0.00
       .col-lg-8
         p.focus A pair of gloves, a coat, a warm hat.
         p.focus.bottom They may sound simple, but each can make the difference between sleeping safely and comfortably, and hypothermia.
@@ -194,4 +241,6 @@ block content
           a.btn.btn-default.btn-lg.btn-pay.disabled(href='#') Coming Soon!
   footer
     .container
-      p Footery Goodness.
+      .row
+        .col-lg-3
+          img(src='/img/logo.png')

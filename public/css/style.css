@@ -206,6 +206,27 @@ a.more:hover {
   font-weight: 600;
 }
 
+.learnmore .gloves {
+  padding-left: 4px;
+}
+
+.tracker {
+  width: 80%;
+}
+
+.tracker td {
+  vertical-align: middle;
+}
+
+.tracker td.right {
+  text-align: right;
+}
+
+.tracker img {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
 /* ---- Clothing ---- */
 
 .clothing {
@@ -303,6 +324,12 @@ a.more:hover {
 
 .btn-pay {
   margin-top: 40px;
+}
+
+/* ---- Footer ----*/
+
+footer {
+  padding-bottom: 50px;
 }
 
 /* Extra small devices (phones, less than 768px) */
