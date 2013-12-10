@@ -214,6 +214,21 @@ a.more:hover {
   width: 80%;
 }
 
+.tracker .heading {
+  text-align: center;
+}
+
+.tracker .funds {
+  margin-top: 20px;
+}
+
+.tracker h4 {
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
 .tracker td {
   vertical-align: middle;
 }
