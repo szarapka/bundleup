@@ -235,6 +235,14 @@ a.more:hover {
   margin-bottom: 0;
 }
 
+.yes {
+  color: #7ff15b;
+}
+
+.no {
+  color: #f15d5b;
+}
+
 /* ---- Drop Off Finder ---- */
 
 .nobottom {
@@ -255,8 +263,12 @@ a.more:hover {
 
 .clothing .area {
   font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.clothing .end {
   padding-bottom: 195px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .clothing .area a {
@@ -283,6 +295,13 @@ a.more:hover {
   font-weight: 600;
 }
 
+.donate p {
+  line-height: 1.55em;
+  margin-top: 50px;
+  font-size: 30px;
+
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -290,10 +309,17 @@ a.more:hover {
 @media (min-width: 768px) {  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+
+  .overview .coat {
+    margin-top: 100px;
+  }
+
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
   figcaption h1 {
     font-size: 140px;
   }
