@@ -13,16 +13,47 @@ $(document).ready(function(){
 
   $("figure").css({ "height": windowHeight });
 
+  var geoJSON = [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.1179877,49.286396]
+      },
+      "properties": {
+        "title": "2% Realty, Downtown",
+        "description": "900 - 555 Burrard, Vancouver",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.135998,49.272296]
+      },
+      "properties": {
+        "title": "Accent Cruises",
+        "description": "1698 Duranleau St, Vancouver",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      }
+    }
+  ];
+
   L.mapbox.map('map', 'bundleup.ggdl4bm3', {
     scrollWheelZoom: false
   })
-  .setView([49.2171, -122.8354], 11);
+  .setView([49.2171, -122.8354], 11)
+  .markerLayer.setGeoJSON(geoJSON);
 
   $(window).resize(function(){
     windowHeight = $(window).height();
     $("figure").css({ "height": windowHeight });
   });
 
+  // TODO: Replace this series with a single function that uses
   $('a.more').click(function(e){
     e.preventDefault();
     $('#overview').ScrollTo({
