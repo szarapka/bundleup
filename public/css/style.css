@@ -297,14 +297,28 @@ a.more:hover {
   padding-top: 50px;
 }
 
+.closest {
+  padding-top: 0;
+}
+
 .clothing .area {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
+.clothing .addy {
+  margin-top: 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.clothing .addy a {
+  color: #f15c5b;
+}
+
 .clothing .end {
   padding-bottom: 195px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .clothing .area a {
