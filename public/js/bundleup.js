@@ -39,6 +39,71 @@ $(document).ready(function(){
         "marker-color": "#f15c5b",
         "marker-size": "large"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.790332,49.276172]
+      },
+      "properties": {
+        "title": "Cap's Westwood",
+        "description": "3590 Westwood St, Port Coquitlam",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.849640,49.276774]
+      },
+      "properties": {
+        "title": "Cap's Westwood",
+        "description": "3066 St Johns St, Port Moody",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      },
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.622468,49.216981]
+      },
+      "properties": {
+        "title": "Cap's Westwood",
+        "description": "21626 Lougheed Highway, Maple Ridge",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      },
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.985043,49.223735]
+      },
+      "properties": {
+        "title": "Cap's Westwood",
+        "description": "Suite 101 - 5400 Kingsway, Burnaby",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      },
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.867215,49.177153]
+      },
+      "properties": {
+        "title": "Anytime Fitness",
+        "description": "12830 96th Avenue, Surrey",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      },
     }
   ];
 
