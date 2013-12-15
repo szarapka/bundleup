@@ -31,7 +31,7 @@ $(document).ready(function(){
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-123.135998,49.272296]
+        "coordinates": [-123.136289,49.273078]
       },
       "properties": {
         "title": "Accent Cruises",
