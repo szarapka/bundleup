@@ -126,7 +126,8 @@ a.more:hover {
 }
 
 .btn-money {
-  padding: 23px 10px;
+  padding: 28px 10px;
+  line-height: 18px;
   background-color: #7a7b7b;
 }
 
@@ -353,6 +354,32 @@ a.more:hover {
 
 .btn-pay {
   margin-top: 40px;
+}
+
+/* ---- Partners ---- */
+
+.partners {
+  padding-top: 200px;
+  padding-bottom: 195px;
+  background: #fff;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  font-family: 'Signika', sans-serif;
+  font-size: 18px;
+  line-height: 1.55em;
+}
+
+.partners h3 {
+  font-family: 'Signika', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.partners p {
+  line-height: 1.55em;
+  margin-top: 50px;
+  font-size: 30px;
 }
 
 /* ---- Footer ----*/

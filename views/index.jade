@@ -23,7 +23,7 @@ block content
           p Operation BundleUp offers two simple ways for you to get involved:
           .row.cta-buttons
             .col-lg-6.col-lg-offset-1.col-md-6.col-md-offset-1
-              a.btn.btn-cta.btn-money(href='#') Donate $
+              a.btn.btn-cta.btn-money.disabled(href='#') Donate $<br><span>(Coming Soon!)</span>
             .col-lg-5.col-md-5
               a.btn.btn-cta.btn-clothes(href='#') Donate Coats<br><span>or winter wear</span>
       .learnmore-box
@@ -40,27 +40,27 @@ block content
               td
                 img(src='/img/jacket.png')
                 | Coats
-              td.right 0
+              td.right 13
             tr
               td
                 img.gloves(src='/img/gloves.png')
                 | Gloves
-              td.right 0
+              td.right 4
             tr
               td
                 img(src='/img/thermal.png')
                 | Thermal
-              td.right 0
+              td.right 2
             tr
               td
                 img(src='/img/toque.png')
                 | Toques &amp; Hats
-              td.right 0
+              td.right 4
             tr
               td
                 img(src='/img/socks.png')
                 | Socks
-              td.right 0
+              td.right 6
             tr
               td
                 img(src='/img/underwear.png')
@@ -75,7 +75,7 @@ block content
               td
                 img(src='/img/scarf.png')
                 | Scarves
-              td.right 0
+              td.right 4
       .col-lg-8.col-md-8
         p.focus A pair of gloves, a coat, a warm hat.
         p.focus.bottom They may sound simple, but each can make the difference between sleeping safely and comfortably, and hypothermia.
@@ -245,20 +245,30 @@ block content
       .row.clothing.closest
         .col-lg-12.col-md-12
           p.area We're currently looking for drop-off locations in the following areas: North, West &amp; South Vancouver, Burnaby, Langley, Coquitlam, Richmond, Delta &amp; White Rock. If you can help us with this, please get in <a href="mailto:info@operationbundleup.com">touch</a>!
-  section.donate
+  section.partners
     .container
-      h3 Donate $
-      p Operation BundleUp is in the midst of getting its payment processes set up. Unfortunately, at this time, we cannot accept monetary payments. Check back in a day or two!
+      h3 Our Partners
+      p Operation BundleUp is proud to work with the following organizations to ensure that those in need recieve warm winter coats and clothing.
       .row
         .col-lg-4.col-md-4
-          h3 Credit Card
-          a.btn.btn-default.btn-lg.btn-pay.disabled(href='#') Coming Soon!
+          a(href='http://www.covenanthousebc.org/')
+            img.img-responsive(src='/img/covenant.png')
         .col-lg-4.col-md-4
-          h3 Paypal
-          a.btn.btn-default.btn-lg.btn-pay.disabled(href='#') Coming Soon!
+          a(href='http://dewc.ca/')
+            img.img-responsive(src='/img/dtes.png')
         .col-lg-4.col-md-4
-          h3 Bitcoin
-          a.btn.btn-default.btn-lg.btn-pay.disabled(href='#') Coming Soon!
+          a(href='http://nightshiftministries.org/')
+            img.img-responsive(src='/img/nightshift.png')
+      .row
+        .col-lg-4.col-md-4
+          a(href='http://www.raincityhousing.org/')
+            img.img-responsive(src='/img/raincity.png')
+        .col-lg-4.col-md-4
+          a(href='http://lookoutsociety.ca/')
+            img.img-responsive(src='/img/lookout.png')
+        .col-lg-4.col-md-4
+          a(href='http://www.ywcavan.org/')
+            img.img-responsive(src='/img/ywca.png')
   footer
     .container
       .row
