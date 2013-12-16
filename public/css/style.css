@@ -13,9 +13,11 @@ body {
 }
 
 body.media {
+  font-family: 'Signika', sans-serif;
   background: #fff;
   margin: 0;
   padding: 0;
+  overflow: visible;
 }
 
 .textright {
@@ -399,9 +401,34 @@ a:hover {
 
 /* ---- Media (Page) ----*/
 
+.media header {
+  position: relative;
+}
+
 .media .back {
-  display: block;
+  display: inline-block;
   margin-top: 45px;
+}
+
+.media .relations {
+  padding: 100px 0;
+  font-size: 18px;
+}
+
+.relations .first {
+  padding-top: 0;
+}
+
+.thumb img {
+  display: inline-block;
+  width: 50%;
+}
+
+.relations h3 {
+  padding-top: 20px;
+  font-family: 'Signika', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 /* ---- Footer ----*/
