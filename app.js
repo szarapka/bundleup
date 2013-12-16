@@ -1,14 +1,22 @@
-
 /**
- * Module dependencies.
+ * BundleUp
+ * Operation BundleUp provides warm coats and winter wear to those who
+ * need them most.
+ *
+ * @package  bundleup
+ * @version  0.0.1
+ * @author   Scott Szarapka
+ * @url      www.operationbundleup.com
+ * @copyright Copyright ©2013 BundleUp.
  */
 
-var express = require('express');
-var routes = require('./routes');
-var http = require('http');
-var path = require('path');
+// module dependencies
+var express     = require('express');
+var routes      = require('./routes');
+var http        = require('http');
+var path        = require('path');
 
-var app = express();
+var app         = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -33,3 +41,6 @@ app.get('/media', routes.media);
 http.createServer(app).listen(app.get('port'), function(){
   console.log('BundleUp server listening on port ' + app.get('port'));
 });
+
+// For Testing Support
+module.exports = app;

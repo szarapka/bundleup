@@ -17,7 +17,8 @@
   "bugs"        : "https://github.com/scottszarapka/bundleup/issues",
   "contributors": "https://github.com/scottszarapka/bundleup/graphs/contributors",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "test": "mocha"
   },
   "engines": {
       "node": "0.10.*"

@@ -105,118 +105,118 @@ block content
           thead
             tr
               th
-              th Importance
+              th.textcenter Importance
               th New
               th Used
           tbody
             tr
               td Socks
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Underwear
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Toques / Hats
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Coats
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Gloves
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Blankets
-              td Critical
+              td.textcenter Critical
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Boots
-              td Important
+              td.textcenter Important
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Sleeping Bags
-              td Important
+              td.textcenter Important
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Pocket Warmers
-              td Important
+              td.textcenter Important
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Lipbalm
-              td Important
+              td.textcenter Important
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Thermal / Long-Johns
-              td Important
+              td.textcenter Important
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Hoodies
-              td Moderate
+              td.textcenter Moderate
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Rain Coats
-              td Moderate
+              td.textcenter Moderate
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Vests
-              td Moderate
+              td.textcenter Moderate
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-ok.yes
             tr
               td Scarves
-              td Moderate
+              td.textcenter Moderate
               td
                 span.glyphicon.glyphicon-ok.yes
               td
                 span.glyphicon.glyphicon-remove.no
             tr
               td Umbrellas
-              td Moderate
+              td.textcenter Moderate
               td
                 span.glyphicon.glyphicon-ok.yes
               td
@@ -289,9 +289,24 @@ block content
   footer
     .container
       .row
-        .col-lg-4.col-md-4
-        .col-lg-8.col-md-8.footer-menu
+        .col-lg-6.col-md-6
+          form.newsletterform(action='http://operationbundleup.us3.list-manage1.com/subscribe/post?u=ae8913bed26d384905327ebba&amp;id=2bf60e43d8', method='post', target='_blank')
+            label Newsletter
+            input.form-control(type='email', value='', name='EMAIL', id='mce-EMAIL', placeholder='Your E-Mail')
+            button.btn(type='submit') Subscribe
+          ul.social
+            li
+              a(href='https://www.facebook.com/operationbundleup') Facebook
+            li
+              a(href='https://twitter.com/bundleupyvr') Twitter
+            li
+              a(href='http://instagram.com/bundleupyvr') Instagram
+        .col-lg-6.col-md-6.footer-menu
           ul
+            li
+              a(href='/cities') Cities
+            li
+              a(href='/team') Team
             li
               a(href='/media') Media
             li
