@@ -37,6 +37,8 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/media', routes.media);
+app.get('/cities', routes.cities);
+app.get('/team', routes.team);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('BundleUp server listening on port ' + app.get('port'));
