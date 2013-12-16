@@ -12,6 +12,16 @@ body {
   background: #000 url('../img/binding_dark.png');
 }
 
+body.media {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.textright {
+  text-align: right;
+}
+
 /* ---- Splash ---- */
 
 header {
@@ -243,6 +253,11 @@ a.more:hover {
   padding-bottom: 10px;
 }
 
+a,
+a:hover {
+  color: #f15c5b;
+}
+
 /* ---- Clothing ---- */
 
 .clothing {
@@ -382,10 +397,48 @@ a.more:hover {
   font-size: 30px;
 }
 
+/* ---- Media (Page) ----*/
+
+.media .back {
+  display: block;
+  margin-top: 45px;
+}
+
 /* ---- Footer ----*/
 
 footer {
   padding-bottom: 50px;
+  color: #fff;
+  font-family: 'Signika', sans-serif;
+  font-size: 24px;
+}
+
+.footer-menu {
+  text-align: right;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer ul {
+  margin-top: 42px;
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+footer .small {
+  font-size: 14px;
+  font-weight: normal;
 }
 
 /* Extra small devices (phones, less than 768px) */

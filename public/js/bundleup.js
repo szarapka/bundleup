@@ -147,6 +147,13 @@ $(document).ready(function(){
     });
   });
 
+  $('a.gotomap').click(function(e){
+    e.preventDefault();
+    $('section.map').ScrollTo({
+      duration: 1500
+    });
+  });
+
 });
 
 /*
