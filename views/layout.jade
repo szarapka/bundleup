@@ -1,10 +1,7 @@
 doctype 5
 html
   head
-    if page === 'media'
-      title Media - Operation Bundle Up
-    else
-      title Operation Bundle Up
+    title=title
     meta(name='description', content='Operation Bundle Up helps provide warm coats & winter clothing to those who need it most: the more than 2600 homeless braving the cold Metro Vancouver winter.')
     if page === 'media'
       meta(name='robots', content='noindex,nofollow')
@@ -33,8 +30,8 @@ html
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(t, s);
       })();
-  if page === 'media'
-    body.media
+  if page === 'home'
+    body.home
   else
     body
   block content

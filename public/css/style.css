@@ -6,19 +6,20 @@
  *
  */
 
-/* ---- Body & General Styles ---- */
+/* ---- Body ---- */
 
 body {
-  background: #000 url('../img/binding_dark.png');
-}
-
-body.media {
   font-family: 'Signika', sans-serif;
   background: #fff;
   margin: 0;
   padding: 0;
-  overflow: visible;
 }
+
+body.home {
+  background: #000 url('../img/binding_dark.png');
+}
+
+/* ---- General Styles ---- */
 
 .textright {
   text-align: right;
@@ -36,6 +37,17 @@ body.media {
 
 .white {
   color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+/* ---- Headers & Text ---- */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Signika', sans-serif;
+  font-weight: 600;
 }
 
 /* ---- Splash ---- */
@@ -71,7 +83,7 @@ figcaption {
 
 figcaption h1 {
   font-size: 140px;
-  font-family: 'Signika', sans-serif;
+  font-weight: 400;
   margin-bottom: 0;
 }
 
@@ -82,7 +94,7 @@ figcaption h1 span {
 figcaption h2 {
   margin-top: 0;
   font-size: 84px;
-  font-family: 'Signika', sans-serif;
+  font-weight: 400;
 }
 
 a.more {
@@ -110,14 +122,11 @@ a.more:hover {
 .overview {
   color: #fff;
   margin-top: 90px;
-  font-family: 'Signika', sans-serif;
 }
 
 .overview h3 {
   margin-top: 0;
-  font-family: 'Signika', sans-serif;
   font-size: 36px;
-  font-weight: 600;
 }
 
 .overview h3 span {
@@ -186,7 +195,6 @@ a.more:hover {
   font-size: 26px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  font-family: 'Signika', sans-serif;
 }
 
 .cta-learnmore span {
@@ -212,7 +220,6 @@ a.more:hover {
   width: 100%;
   overflow: auto;
   clear: both;
-  font-family: 'Signika', sans-serif;
   font-size: 18px;
   line-height: 1.55em;
 }
@@ -228,9 +235,7 @@ a.more:hover {
 }
 
 .learnmore h3 {
-  font-family: 'Signika', sans-serif;
   font-size: 26px;
-  font-weight: 600;
 }
 
 .learnmore .gloves {
@@ -250,7 +255,6 @@ a.more:hover {
 }
 
 .tracker h4 {
-  font-family: 'Signika', sans-serif;
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 15px;
@@ -278,15 +282,12 @@ a:hover {
 
 .clothing {
   padding-top: 200px;
-  font-family: 'Signika', sans-serif;
   color: #fff;
   padding-bottom: 50px;
 }
 
 .clothing h3 {
-  font-family: 'Signika', sans-serif;
   font-size: 36px;
-  font-weight: 600;
 }
 
 .clothing p {
@@ -366,15 +367,12 @@ a:hover {
   width: 100%;
   overflow: auto;
   clear: both;
-  font-family: 'Signika', sans-serif;
   font-size: 18px;
   line-height: 1.55em;
 }
 
 .donate h3 {
-  font-family: 'Signika', sans-serif;
   font-size: 36px;
-  font-weight: 600;
 }
 
 .donate p {
@@ -396,15 +394,12 @@ a:hover {
   width: 100%;
   overflow: auto;
   clear: both;
-  font-family: 'Signika', sans-serif;
   font-size: 18px;
   line-height: 1.55em;
 }
 
 .partners h3 {
-  font-family: 'Signika', sans-serif;
   font-size: 36px;
-  font-weight: 600;
 }
 
 .partners p {
@@ -415,16 +410,12 @@ a:hover {
 
 /* ---- Media (Page) ----*/
 
-.media header {
-  position: relative;
-}
-
-.media .back {
+.back {
   display: inline-block;
   margin-top: 45px;
 }
 
-.media .relations {
+.relations {
   padding: 100px 0;
   font-size: 18px;
 }
@@ -440,9 +431,7 @@ a:hover {
 
 .relations h3 {
   padding-top: 20px;
-  font-family: 'Signika', sans-serif;
   font-size: 26px;
-  font-weight: 600;
 }
 
 /* ---- Footer ----*/
@@ -450,7 +439,6 @@ a:hover {
 footer {
   padding-bottom: 50px;
   color: #fff;
-  font-family: 'Signika', sans-serif;
   font-size: 24px;
 }
 
