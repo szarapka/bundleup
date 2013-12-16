@@ -6,7 +6,7 @@
  *
  */
 
-/* ---- Body ---- */
+/* ---- Body & General Styles ---- */
 
 body {
   background: #000 url('../img/binding_dark.png');
@@ -22,6 +22,12 @@ body.media {
 
 .textright {
   text-align: right;
+}
+
+.anchor,
+.anchor:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ---- Splash ---- */
