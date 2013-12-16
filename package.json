@@ -1,12 +1,34 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
+  "name"        : "bundleup",
+  "version"     : "0.0.1",
+  "description" : "Bundle Up Platform.",
+  "author"      : "Scott Szarapka",
+  "homepage"    : "https://github.com/scottszarapka/bundleup",
+  "keywords"    : [
+      "yield",
+      "image uploader",
+      "images"
+  ],
+  "private"     : true,
+  "repository"  : {
+    "type": "git",
+    "url": "https://github.com/scottszarapka/bundleup.git"
   },
+  "bugs"        : "https://github.com/scottszarapka/bundleup/issues",
+  "contributors": "https://github.com/scottszarapka/bundleup/graphs/contributors",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "engines": {
+      "node": "0.10.*"
+  },
+  "engineStrict": true,
   "dependencies": {
     "express": "3.4.4",
     "jade": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "supertest": "*"
   }
 }
