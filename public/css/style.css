@@ -455,6 +455,39 @@ a:hover {
   font-size: 26px;
 }
 
+/* ---- Team ---- */
+
+.team {
+  padding: 100px 0;
+  font-size: 14px;
+}
+
+.team .profilephoto {
+  position: relative;
+}
+
+.team .profilephoto img {
+  position: relative;
+}
+
+.team .social-icons {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+h3.volunteers {
+  margin-top: 50px;
+}
+
+.teamdeets {
+  list-style: none;
+  padding: 0;
+}
+
 /* ---- Footer ----*/
 
 footer {
