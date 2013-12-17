@@ -398,8 +398,29 @@ a:hover {
   line-height: 1.55em;
 }
 
-.partners h3 {
+.partners ul {
+  list-style: none;
+  padding: 0;
+}
+
+.partners li {
   font-size: 36px;
+  font-weight: 600;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.partners li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.partners li a:hover {
+  color: #c2c2c2;
+}
+
+.partners li.active a {
+  color: #000;
 }
 
 .partners p {

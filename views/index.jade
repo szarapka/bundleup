@@ -263,29 +263,61 @@ block content
           p.area We're currently looking for drop-off locations in the following areas: North, West &amp; South Vancouver, Burnaby, Langley, Coquitlam, Richmond, Delta &amp; White Rock. If you can help us with this, please get in <a href="mailto:info@operationbundleup.com">touch</a>!
   section.partners
     .container
-      h3
-        a.anchor(name='partners') Our Partners
-      p Operation BundleUp is proud to work with the following organizations to ensure that those in need recieve warm winter coats and clothing.
-      .row
-        .col-lg-4.col-md-4
-          a(href='http://www.covenanthousebc.org/')
-            img.img-responsive(src='/img/covenant.png')
-        .col-lg-4.col-md-4
-          a(href='http://dewc.ca/')
-            img.img-responsive(src='/img/dtes.png')
-        .col-lg-4.col-md-4
-          a(href='http://nightshiftministries.org/')
-            img.img-responsive(src='/img/nightshift.png')
-      .row
-        .col-lg-4.col-md-4
-          a(href='http://www.raincityhousing.org/')
-            img.img-responsive(src='/img/raincity.png')
-        .col-lg-4.col-md-4
-          a(href='http://lookoutsociety.ca/')
-            img.img-responsive(src='/img/lookout.png')
-        .col-lg-4.col-md-4
-          a(href='http://www.ywcavan.org/')
-            img.img-responsive(src='/img/ywca.png')
+      ul
+        li.active
+          a(href='#ourpartners', name='partners', data-toggle='tab') Our Partners
+        li
+          a(href='#oursponsors', data-toggle='tab') Our Sponsors
+      .tab-content
+        .tab-pane.active#ourpartners
+          p Operation BundleUp is proud to work with the following organizations to ensure that those in need recieve warm winter coats and clothing.
+          .row
+            .col-lg-4.col-md-4
+              a(href='http://www.covenanthousebc.org/')
+                img.img-responsive(src='/img/covenant.png')
+            .col-lg-4.col-md-4
+              a(href='http://dewc.ca/')
+                img.img-responsive(src='/img/dtes.png')
+            .col-lg-4.col-md-4
+              a(href='http://nightshiftministries.org/')
+                img.img-responsive(src='/img/nightshift.png')
+          .row
+            .col-lg-4.col-md-4
+              a(href='http://www.raincityhousing.org/')
+                img.img-responsive(src='/img/raincity.png')
+            .col-lg-4.col-md-4
+              a(href='http://lookoutsociety.ca/')
+                img.img-responsive(src='/img/lookout.png')
+            .col-lg-4.col-md-4
+              a(href='http://www.ywcavan.org/')
+                img.img-responsive(src='/img/ywca.png')
+        .tab-pane#oursponsors
+          p Operation BundleUp would like to express our most sincere thanks to the following organizations for donating their services, time and space.
+          .row
+            .col-lg-3.col-md-3
+              img.img-responsive(src='/img/2percent.png')
+            .col-lg-3.col-md-3
+              a(href='http://www.accentcruises.ca/', target='_blank')
+                img.img-responsive(src='/img/accentcruises.png')
+            .col-lg-3.col-md-3
+              a(href='http://www.anytimefitness.com/gyms/3052', target='_blank')
+                img.img-responsive(src='/img/anytime.png')
+            .col-lg-3.col-md-3
+              a(href='http://westwoodcycle.ca/', target='_blank')
+                img.img-responsive(src='/img/capswestwood.png')
+          .row
+            .col-lg-3.col-md-3
+              a(href='http://www.clubcard.ca', target='_blank')
+                img.img-responsive(src='/img/clubcard.png')
+            .col-lg-3.col-md-3
+              a(href='http://www.lettershop.ca/', target='_blank')
+                img.img-responsive(src='/img/lettershop.png')
+            .col-lg-3.col-md-3
+              a(href='http://www.printprint.ca/', target='_blank')
+                img.img-responsive(src='/img/printprint.png')
+            .col-lg-3.col-md-3
+              a(href='http://publicstoragecanada.com/', target='_blank')
+                img.img-responsive(src='/img/publicstorage.png')
   footer
     .container
       .row
