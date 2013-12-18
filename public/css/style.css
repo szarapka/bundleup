@@ -133,6 +133,10 @@ a.more:hover {
   color: #f15c5b;
 }
 
+.coat {
+  margin: 0 auto;
+}
+
 .overview p {
   line-height: 1.55em;
   margin-top: 50px;

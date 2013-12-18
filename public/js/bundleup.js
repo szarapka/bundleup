@@ -107,11 +107,13 @@ $(document).ready(function(){
     }
   ];
 
-  L.mapbox.map('map', 'bundleup.ggdl4bm3', {
-    scrollWheelZoom: false
+  var map = L.mapbox.map('map', 'bundleup.ggdl4bm3', {
+    scrollWheelZoom: false,
   })
   .setView([49.2171, -122.8354], 11)
   .markerLayer.setGeoJSON(geoJSON);
+
+  map.touchZoom.disable();
 
   $(window).resize(function(){
     windowHeight = $(window).height();
