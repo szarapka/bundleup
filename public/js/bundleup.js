@@ -107,20 +107,19 @@ $(document).ready(function(){
     }
   ];
 
-  var map = L.mapbox.map('map', 'bundleup.ggdl4bm3', {
+  L.mapbox.map('map', 'bundleup.ggdl4bm3', {
     scrollWheelZoom: false,
   })
   .setView([49.2171, -122.8354], 11)
   .markerLayer.setGeoJSON(geoJSON);
-
-  map.touchZoom.disable();
 
   $(window).resize(function(){
     windowHeight = $(window).height();
     $("figure").css({ "height": windowHeight });
   });
 
-  // TODO: Replace this series with a single function that uses
+  // TODO: Replace this series with a single function
+  // that uses data attributes
   $('a.more').click(function(e){
     e.preventDefault();
     $('#overview').ScrollTo({
