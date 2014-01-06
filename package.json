@@ -16,6 +16,12 @@
   },
   "bugs"        : "https://github.com/scottszarapka/bundleup/issues",
   "contributors": "https://github.com/scottszarapka/bundleup/graphs/contributors",
+  "licenses"    : [
+    {
+      "type": "GPL V2",
+      "url": "https://raw.github.com/scottszarapka/bundleup/master/LICENSE"
+    }
+  ],
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha"

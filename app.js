@@ -3,11 +3,11 @@
  * Operation BundleUp provides warm coats and winter wear to those who
  * need them most.
  *
- * @package  bundleup
- * @version  0.0.1
- * @author   Scott Szarapka
- * @url      www.operationbundleup.com
- * @copyright Copyright ©2013 BundleUp.
+ * @package     bundleup
+ * @copyright   Copyright (C) 2013 Scott Szarapka
+ * @author      Scott Szarapka [scott@szarapka.com] (www.szarapka.com)
+ * @license     GPL v2 (http://www.gnu.org/licenses/gpl-2.0.txt)
+ * @url         www.operationbundleup.com
  */
 
 // module dependencies
