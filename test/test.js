@@ -18,3 +18,27 @@ describe('GET', function() {
     .expect(200, done);
   });
 });
+
+describe('GET', function() {
+  it('responds with a HTML page', function(done){
+    request(app)
+    .get('/volunteer')
+    .expect(200, done);
+  });
+});
+
+describe('GET', function() {
+  it('responds with a HTML page', function(done){
+    request(app)
+    .get('/team')
+    .expect(200, done);
+  });
+});
+
+describe('GET', function() {
+  it('responds with a HTML page', function(done){
+    request(app)
+    .get('/cities')
+    .expect(200, done);
+  });
+});

@@ -1,0 +1,15 @@
+box: wercker/nodejs@1.0.1
+build:
+  steps:
+    - npm-install
+    - npm-test
+    - script:
+        name: echo nodejs information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+  after-steps:
+    - sherzberg/slack-notify:
+        subdomain: passage
+        token: $SLACK_TOKEN
+        channel: bundleup
