@@ -64,7 +64,7 @@ $(document).ready(function(){
         "description": "3066 St Johns St, Port Moody",
         "marker-color": "#f15c5b",
         "marker-size": "large"
-      },
+      }
     },
     {
       "type": "Feature",
@@ -77,7 +77,7 @@ $(document).ready(function(){
         "description": "21626 Lougheed Highway, Maple Ridge",
         "marker-color": "#f15c5b",
         "marker-size": "large"
-      },
+      }
     },
     {
       "type": "Feature",
@@ -90,7 +90,7 @@ $(document).ready(function(){
         "description": "Suite 101 - 5400 Kingsway, Burnaby",
         "marker-color": "#f15c5b",
         "marker-size": "large"
-      },
+      }
     },
     {
       "type": "Feature",
@@ -103,7 +103,20 @@ $(document).ready(function(){
         "description": "12830 96th Avenue, Surrey",
         "marker-color": "#f15c5b",
         "marker-size": "large"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.078533,49.319998]
       },
+      "properties": {
+        "title": "Queen Mary Community School",
+        "description": "230 Keith Rd West, North Vancouver",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      }
     }
   ];
 
