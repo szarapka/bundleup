@@ -39,6 +39,18 @@ $(document).ready(function(){
         "marker-color": "#f15c5b",
         "marker-size": "large"
       }
+    },    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-123.1082196,49.2820794]
+      },
+      "properties": {
+        "title": "Launch Academy",
+        "description": "300 - 128 W Hastings St, Vancouver",
+        "marker-color": "#f15c5b",
+        "marker-size": "large"
+      }
     },
     {
       "type": "Feature",
